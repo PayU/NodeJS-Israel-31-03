@@ -8,4 +8,9 @@ This repo cotains the code for 31/03 session.
 2) install dependencies: ```npm install```
 3) run one of the scenarios. for example: ```node index.js 1 10 fix:50```
 
+# How to monitor
+1) In order to monitor your consumer group. run the monitor script together with the consumer group name. for exampe: ```./monitor demo_group_1```
+
+
+
 Enjoy :)

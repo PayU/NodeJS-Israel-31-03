@@ -5,7 +5,7 @@ echo "running stats for consumer group: $consumerGroup"
 
 while :
 do
-	info=($(/Users/shaimoria/Desktop/kafka_2.12-2.2.0/bin/kafka-consumer-groups.sh --bootstrap-server 127.0.0.1:9092 --describe --group $consumerGroup))
+	info=($(<path_to_kafka_bin_folder>/kafka-consumer-groups.sh --bootstrap-server 127.0.0.1:9092 --describe --group $consumerGroup))
     clear
 
     if [[ "$consumerGroup" == "demo_group_1" ]]; then
